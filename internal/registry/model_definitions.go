@@ -655,6 +655,19 @@ func GetOpenAIModels() []*ModelInfo {
 			MaxCompletionTokens: 128000,
 			SupportedParameters: []string{"tools"},
 			Thinking:            &ThinkingSupport{Levels: []string{"low", "medium", "high", "xhigh"}},
+		},{
+			ID:                  "gpt-5.2-codex-xmas",
+			Object:              "model",
+			Created:             1765440000,
+			OwnedBy:             "openai",
+			Type:                "openai",
+			Version:             "gpt-5.2",
+			DisplayName:         "GPT 5.2 Codex xmas",
+			Description:         "哥们 我不想解释",
+			ContextLength:       400000,
+			MaxCompletionTokens: 128000,
+			SupportedParameters: []string{"tools"},
+			Thinking:            &ThinkingSupport{Levels: []string{"low", "medium", "high", "xhigh"}},
 		},
 	}
 }
